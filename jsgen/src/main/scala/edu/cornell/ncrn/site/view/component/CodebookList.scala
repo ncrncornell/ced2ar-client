@@ -1,9 +1,9 @@
-package edu.ncrn.cornell.site.view.component
+package edu.cornell.ncrn.site.view.component
 
-import edu.ncrn.cornell.service.api._
-import edu.ncrn.cornell.site.view.routing.{EndPoints, HostConfig, Router}
-import edu.ncrn.cornell.site.view.comm.Request.requestDecodeIterable
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.service.api._
+import edu.cornell.ncrn.site.view.routing.{EndPoints, HostConfig, Router}
+import edu.cornell.ncrn.site.view.comm.Request.requestDecodeIterable
+import edu.cornell.ncrn.site.view.utils.Utils._
 
 import scala.xml.{Group, Node, Text}
 import mhtml._

@@ -1,7 +1,7 @@
-package edu.ncrn.cornell.site.view.comm
+package edu.cornell.ncrn.site.view.comm
 
-import edu.ncrn.cornell.service.api.VarDetails
-import edu.ncrn.cornell.site.view.utils.Utils
+import edu.cornell.ncrn.service.api.VarDetails
+import edu.cornell.ncrn.site.view.utils.Utils
 import fr.hmil.roshttp.HttpRequest
 import fr.hmil.roshttp.response.SimpleHttpResponse
 import mhtml.Rx
@@ -16,7 +16,7 @@ import scala.util.{Failure, Success}
 
 import monix.execution.Scheduler.Implicits.global
 
-import edu.ncrn.cornell.service.api._
+import edu.cornell.ncrn.service.api._
 
 object Request {
   def requestDecodeIterable[B, I[X] <: Iterable[X]](reqRx:  Rx[HttpRequest])

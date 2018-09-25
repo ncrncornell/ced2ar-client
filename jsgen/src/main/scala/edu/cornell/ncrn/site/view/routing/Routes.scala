@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.routing
+package edu.cornell.ncrn.site.view.routing
 
 object Routes {
   val about = "about"

@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.utils
+package edu.cornell.ncrn.site.view.utils
 
 import org.scalajs.dom.{DOMParser, XMLSerializer}
 import org.scalatest.FunSuite

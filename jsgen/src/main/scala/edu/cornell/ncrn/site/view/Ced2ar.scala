@@ -1,6 +1,6 @@
 // This implementation is mostly copied from Binding.scala TodoMVC example:
 // https://github.com/ThoughtWorksInc/todo/blob/master/js/src/main/scala/com/thoughtworks/todo/Main.scala
-package edu.ncrn.cornell.site.view
+package edu.cornell.ncrn.site.view
 
 
 import java.net.URI
@@ -8,10 +8,10 @@ import java.net.URI
 import scala.xml._
 import mhtml._
 import cats.implicits._
-import edu.ncrn.cornell.site.view.component._
-import edu.ncrn.cornell.site.view.component.editor.{Editor, NeptuneStyles}
-import edu.ncrn.cornell.site.view.routing.{HostConfig, Router, Routes}
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.site.view.component._
+import edu.cornell.ncrn.site.view.component.editor.{Editor, NeptuneStyles}
+import edu.cornell.ncrn.site.view.routing.{HostConfig, Router, Routes}
+import edu.cornell.ncrn.site.view.utils.Utils._
 import mhtml.implicits.cats._
 import org.scalajs.dom
 import org.scalajs.dom.{DOMList, Event, KeyboardEvent, html}
@@ -25,7 +25,7 @@ import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 
 object Ced2ar {
 
-  @JSExportTopLevel("edu.ncrn.cornell.site.view")
+  @JSExportTopLevel("edu.cornell.ncrn.site.view")
   protected def getInstance(): this.type = this
 
 

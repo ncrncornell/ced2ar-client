@@ -1,11 +1,11 @@
-package edu.ncrn.cornell.site.view.component.editor
+package edu.cornell.ncrn.site.view.component.editor
 
 import scala.scalajs.js
 import org.scalajs.dom
 import dom.{document, window}
 import dom.raw.{MouseEvent, MutationObserver, MutationObserverInit, MutationRecord}
-import edu.ncrn.cornell.site.view.component.Component
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.site.view.component.Component
+import edu.cornell.ncrn.site.view.utils.Utils._
 import mhtml.{Rx, Var}
 import org.scalajs.dom.html.Div
 import org.scalajs.dom.raw.{DOMParser, XMLSerializer}

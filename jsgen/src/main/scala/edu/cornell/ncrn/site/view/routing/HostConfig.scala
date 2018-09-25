@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.routing
+package edu.cornell.ncrn.site.view.routing
 
 import scala.xml._
 import mhtml._
@@ -17,7 +17,7 @@ import fr.hmil.roshttp.response.SimpleHttpResponse
 import monix.execution.Scheduler.Implicits.global
 
 
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.site.view.utils.Utils._
 
 object HostConfig {
 

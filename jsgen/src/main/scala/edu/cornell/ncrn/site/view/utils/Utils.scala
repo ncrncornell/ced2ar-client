@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.utils
+package edu.cornell.ncrn.site.view.utils
 
 import mhtml._
 import org.scalajs.dom.raw.{NodeList, XPathNSResolver, XPathResult}

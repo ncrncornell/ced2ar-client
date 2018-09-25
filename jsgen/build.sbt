@@ -21,8 +21,8 @@ val cssInPaths = Map(
   "bootstrap/dist/js" -> "/js/",
   "bootstrap/dist/fonts" -> "/fonts/"
 )
-val apiSourceDir = "../services-core/src/main/java/edu/ncrn/cornell/service"
-val sourceDirMap = Map("api" -> "/edu/ncrn/cornell/service/api/")
+val apiSourceDir = "../services-core/src/main/java/edu/cornell/ncrn/service"
+val sourceDirMap = Map("api" -> "/edu/cornell/ncrn/service/api/")
 def copyFiles(
   base: File, trg: File, strms: TaskStreams,
   relSourceRoot: String, relPathMap: Map[String, String]

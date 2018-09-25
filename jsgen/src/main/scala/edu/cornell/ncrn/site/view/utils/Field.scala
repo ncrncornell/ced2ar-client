@@ -1,8 +1,8 @@
-package edu.ncrn.cornell.site.view.utils
+package edu.cornell.ncrn.site.view.utils
 
-import edu.ncrn.cornell.site.view.component.editor.Editor
-import edu.ncrn.cornell.site.view.component.editor.Editor.Settings
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.site.view.component.editor.Editor
+import edu.cornell.ncrn.site.view.component.editor.Editor.Settings
+import edu.cornell.ncrn.site.view.utils.Utils._
 import mhtml.{Rx, Var}
 import org.scalajs.dom
 

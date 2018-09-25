@@ -1,6 +1,6 @@
-package edu.ncrn.cornell.site.view.routing
+package edu.cornell.ncrn.site.view.routing
 
-import edu.ncrn.cornell.service.api.CodebookDetails
+import edu.cornell.ncrn.service.api.CodebookDetails
 
 import scala.scalajs.js.URIUtils._
 import mhtml.Rx

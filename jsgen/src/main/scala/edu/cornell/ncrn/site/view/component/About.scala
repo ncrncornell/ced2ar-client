@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.component
+package edu.cornell.ncrn.site.view.component
 
 import mhtml._
 

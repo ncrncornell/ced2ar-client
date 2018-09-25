@@ -1,6 +1,6 @@
-package edu.ncrn.cornell.site.view.component
+package edu.cornell.ncrn.site.view.component
 
-import edu.ncrn.cornell.site.view.routing.HostConfig
+import edu.cornell.ncrn.site.view.routing.HostConfig
 import mhtml._
 
 import scala.xml.Node

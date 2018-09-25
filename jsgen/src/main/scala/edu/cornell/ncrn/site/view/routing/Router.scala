@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.site.view.routing
+package edu.cornell.ncrn.site.view.routing
 
 import mhtml.{Rx, Var}
 
@@ -6,7 +6,7 @@ import scala.xml.Node
 import Router._
 import org.scalajs.dom
 import org.scalajs.dom.Event
-import edu.ncrn.cornell.site.view.utils.Utils._
+import edu.cornell.ncrn.site.view.utils.Utils._
 
 import scala.collection.mutable.WrappedArray
 

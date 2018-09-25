@@ -1,7 +1,7 @@
-package edu.ncrn.cornell.site.view
+package edu.cornell.ncrn.site.view
 
-import edu.ncrn.cornell.service.api._
-import edu.ncrn.cornell.site.view.component.CodebookList._
+import edu.cornell.ncrn.service.api._
+import edu.cornell.ncrn.site.view.component.CodebookList._
 import mhtml.Rx
 
 import scala.xml.Node
