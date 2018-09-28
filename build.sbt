@@ -1,9 +1,9 @@
 import java.nio.file.{Files, StandardCopyOption}
 
-name := "ced2ar3-view"
+name := "ced2ar3-client"
 
 //TODO: set this from maven; also note setting sjs plugin version in plugins.sbt
-scalaVersion in ThisBuild := "2.12.4" // or any other Scala version >= 2.10.2
+scalaVersion in ThisBuild := "2.12.6" // or any other Scala version >= 2.10.2
 
 lazy val mhtmlV = "0.4.0-RC1" //TODO: also set from mvn if possible
 
@@ -43,7 +43,7 @@ def copyFiles(
     outDirFiles
   }
 
-lazy val view = (project in file("."))
+lazy val client = (project in file("."))
   .enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
   .settings(
     scalacOptions ++= Seq(
@@ -53,7 +53,7 @@ lazy val view = (project in file("."))
       ,"-language:implicitConversions"
     )
     // TODO: maybe later? requires system has yarn installed:
-    ,useYarn := true
+    // ,useYarn := true
     // Execute the tests in browser-like environment:
     ,jsEnv in Test := new org.scalajs.jsenv.phantomjs.PhantomJSEnv()
     ,scalaJSUseMainModuleInitializer := true
@@ -69,6 +69,7 @@ lazy val view = (project in file("."))
     ,webpackBundlingMode in fastOptJS := BundlingMode.Application
     ,webpackConfigFile in fastOptJS := Some(baseDirectory.value / "dev.webpack.config.js")
     ,libraryDependencies ++= Seq(
+      "edu.cornell.ncrn.ced2ar" %%% "ced2ar3-api" % "0.0.0",
       "in.nvilla" %%% "monadic-rx-cats" % mhtmlV,
       "in.nvilla" %%% "monadic-html" % mhtmlV,
       "com.lihaoyi" %%% "upickle" % "0.4.4",
